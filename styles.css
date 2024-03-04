@@ -201,6 +201,10 @@ textarea {
         flex-direction: column;
     }
 
+    .video-bg {
+        left: -70%;
+    }
+
     .img-mario-luigi {
         width: 80vw;
         height: auto;

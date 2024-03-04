@@ -4,12 +4,9 @@
 <h3 align="center">Estudo de HTML, CSS, Java Script e Responsividade.</h3>
 <br>
 <br>
-<div align="center">
-  <img width="600px" src="https://github.com/feliperyo/mario-brothers/blob/master/assets/mobile%20e%20tablet.png?raw=true" /> 
-</div>
 
 <div align="center">
-  <img width="1000px" src="https://github.com/feliperyo/mario-brothers/blob/master/assets/desktop%202x.png?raw=true"/>
+  <img width="800px" src="https://github.com/feliperyo/mario-brothers/blob/master/assets/mockup.png?raw=true"/>
 </div>
 <h4 align="center">Ao clicar no link "Fale conosco" ou no botão "Entre em contato" um formulário aparece na tela.</h4>
 <br>

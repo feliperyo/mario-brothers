@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     color: white;
+    font-family: "Madimi One", sans-serif;
 }
 
 header {
@@ -60,6 +61,16 @@ p {
     margin: 40px 0px;
 }
 
+.p-cima {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.p-baixo {
+    font-size: 20px;
+    font-weight: 100;
+}
+
 .img-mario-luigi {
     height: 500px;
 }
@@ -75,6 +86,7 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 100px;
+    margin-top: -100px;
 }
 
 .caixa-esquerda {
@@ -176,6 +188,7 @@ textarea {
 }
 
 @media screen and (max-width: 1030px) {
+
     p {
         display: none;
     }
@@ -184,6 +197,7 @@ textarea {
         padding: 10px;
         flex-direction: column;
         justify-content: flex-start;
+        margin-top: 100px;
     }
 
     .mascara {
@@ -206,7 +220,7 @@ textarea {
     }
 
     .img-mario-luigi {
-        width: 80vw;
+        width: 70vw;
         height: auto;
         margin: 30px auto;
     }
@@ -222,7 +236,31 @@ textarea {
     }
 
     .link-header {
-        font-size: 20px;
+        font-size: 30px;
+        margin: 0 10px;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+
+    .caixa-mae {
+        margin-top: 50px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo-header {
+        height: 60px;
+    }
+
+    .img-mario-luigi {
+        width: 80vw;
+    }
+
+    .home-button {
+        margin: 50px 0 20px 0;
+    }
 }

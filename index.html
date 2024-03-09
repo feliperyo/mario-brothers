@@ -1,66 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Mario Bro's</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <a class="link-logo-mario" href=""> <img class="logo-header" src="./assets/logo-header.png" alt="logo mario">
-        </a>
+      <a class="link-logo-mario" href="">
+        <img
+          class="logo-header"
+          src="./assets/logo-header.png"
+          alt="logo mario"
+        />
+      </a>
 
-        <a class="link-header">Home</a>
-        <a onclick="cliqueiNoBotao()" class="link-header">Fale Conosco</a>
-        <a class="link-header">Nossos Serviços</a>
-
+      <a class="link-header">Home</a>
+      <a onclick="cliqueiNoBotao()" class="link-header">Fale Conosco</a>
+      <a class="link-header">Nossos Serviços</a>
     </header>
 
     <div class="caixa-mae">
-        <div class="caixa-esquerda">
-            <img class="logo-mario" src="./assets/logo.png" alt="logo mario bros">
+      <div class="caixa-esquerda">
+        <img class="logo-mario" src="./assets/logo.png" alt="logo mario bros" />
 
-            <p>🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧</p>
+        <p class="p-cima">
+          🔧 Encanadores Mario & Luigi 🔧
+          <br />Resolvendo Seus Problemas Hidráulicos Com Estilo!
+        </p>
 
-            <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
-                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
-                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+        <p class="p-baixo">
+          Você já se encontrou em uma situação de emergência com encanamento?
+          Vazamentos inesperados, canos entupidos ou torneiras que não param de
+          pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+          Apresentamos a vocês os encanadores mais famosos do Reino dos
+          Cogumelos - Mario e Luigi!
+        </p>
 
-            <button onclick="cliqueiNoBotao()" class="home-button">ENTRE EM CONTATO</button>
-        </div>
+        <button onclick="cliqueiNoBotao()" class="home-button">
+          ENTRE EM CONTATO
+        </button>
+      </div>
 
-        <div class="caixa-direita">
-            <img class="img-mario-luigi" src="./assets/mario.png" alt="mario e luigi">
-        </div>
+      <div class="caixa-direita">
+        <img
+          class="img-mario-luigi"
+          src="./assets/mario.png"
+          alt="mario e luigi"
+        />
+      </div>
     </div>
 
     <div class="video-bg">
-
-        <video src="./assets/video.mp4" alt="video de fundo" autoplay muted loop></video>
-        <div class="mascara"></div>
+      <video
+        src="./assets/video.mp4"
+        alt="video de fundo"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="mascara"></div>
     </div>
     <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=5511900000000&text=Me%20salvem,%20Irm%C3%A3os%20Mario!!!!!!!!!">
-            <img class="link-whats" src="./assets/whatsapp.png" alt="link whatsapp">
-        </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=5511900000000&text=Me%20salvem,%20Irm%C3%A3os%20Mario!!!!!!!!!"
+      >
+        <img
+          class="link-whats"
+          src="./assets/whatsapp.png"
+          alt="link whatsapp"
+        />
+      </a>
     </div>
 
-    <form action="https://formcarry.com/s/PC5R0U80a01" method="POST" enctype="multipart/form-data">
-        <input type="text" name="nome" autocomplete="name" placeholder="Seu Nome">
-        <input type="email" name="email" autocomplete="email" placeholder="Seu Email">
-        <textarea name="duvida" placeholder="No que podemos ajudar?">></textarea>
-        <button type="submit" class="form-button">PEDIR ORÇAMENTO</button>
+    <form
+      action="https://formcarry.com/s/PC5R0U80a01"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <input
+        type="text"
+        name="nome"
+        autocomplete="name"
+        placeholder="Seu Nome"
+      />
+      <input
+        type="email"
+        name="email"
+        autocomplete="email"
+        placeholder="Seu Email"
+      />
+      <textarea name="duvida" placeholder="No que podemos ajudar?">></textarea>
+      <button type="submit" class="form-button">PEDIR ORÇAMENTO</button>
     </form>
 
     <div onclick="cliqueiNaMasc()" class="mascara-form"></div>
+  </body>
 
-</body>
-
-<script src="scripts.js"></script>
-
+  <script src="scripts.js"></script>
 </html>

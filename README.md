@@ -11,5 +11,7 @@
 <h4 align="center">Ao clicar no link "Fale conosco" ou no botão "Entre em contato" um formulário aparece na tela.</h4>
 <br>
 <div align="center">
+  <br>
+  <p>Clique abaixo para acessar o Deploy:</p>
 <a href="https://feliperyo.github.io/mario-brothers/" target="_blank"><img src="https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg"></a>
 </div>

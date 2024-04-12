@@ -6,6 +6,10 @@
     font-family: "Madimi One", sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 header {
     display: flex;
     align-items: center;
